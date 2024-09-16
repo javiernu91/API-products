@@ -44,7 +44,7 @@ app.use(errorHandler)
 findAvailablePort(startPort, (availablePort) => {
 
   app.listen(availablePort, ()=> {
-    console.log('Server listening on port: http://localhost:'+availablePort)
+    console.log('Server listening on port: http://localhost:'+availablePort+'/api')
   })
 
 })
