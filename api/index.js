@@ -32,7 +32,7 @@ function findAvailablePort(port, callback) {
 }
 
 
-app.get('/', (req, res) => {
+app.get('/api', (req, res) => {
   res.send('Hola mi server en express')
 })
 
